@@ -19,13 +19,16 @@
   },
   "homepage": "https://github.com/sinmrinal/telenotion#readme",
   "dependencies": {
+    "@notionhq/client": "^0.2.1",
     "axios": "^0.21.1",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^16.0.1",
+    "@types/redis": "^2.8.31",
     "nodemon": "^2.0.10",
     "ts-node": "^10.0.0",
     "tslog": "^3.2.0",
